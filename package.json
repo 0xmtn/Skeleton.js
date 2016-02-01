@@ -6,11 +6,27 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.14.2",
     "bower": "^1.7.7",
+    "compression": "^1.6.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^2.0.0-alpha.1",
+    "error-handler": "^1.0.0",
+    "errorhandler": "^1.4.3",
     "express": "4.13.4",
+    "express-session": "^1.13.0",
+    "http": "0.0.0",
     "jade": "*",
+    "less-middleware": "^2.0.1",
+    "method-override": "^2.3.5",
+    "morgan": "^1.6.1",
     "passport": "^0.3.2",
     "passport-facebook": "^2.0.0",
-    "passport-google-oauth": "^0.2.0"
+    "passport-google-oauth": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0",
+    "serve-static": "^1.10.2"
   }
 }

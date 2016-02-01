@@ -6,7 +6,7 @@
 var express = require('express')
   , cookieParser = require('cookie-parser')
   , bodyParser = require('body-parser')
-  , errorHandler = require('errorhandler')
+  , errorHandler = require('error-handler')
   , session = require('express-session')
   , cookieSession = require("cookie-session")
   , favicon = require('serve-favicon')
@@ -23,7 +23,7 @@ var env = process.env.NODE_ENV || 'development';
 var config = require('./config').config[env];
 
 var app = express();
-app.set('env', env);
+//app.set('env', env);
 
 
 var pssprt = require("passport");
@@ -53,7 +53,7 @@ app.use(static(path.join(__dirname, 'public')));
 
 // development only
 if ('development' == app.get('env')) {
-  app.use(express.errorHandler());
+//app.use(errorHandler());
 }
 
 
