@@ -24,3 +24,12 @@ bower install
 grunt combine
 ```
 
+## Contributing
+_(Coming soon)_
+
+##Authors
+Created by [Metin Emenullahi](https://github.com/0xmtn/)
+
+## License
+Copyright (c) 2015 [Metin Emenullahi](https://github.com/0xmtn/)
+Licensed under the MIT license.
