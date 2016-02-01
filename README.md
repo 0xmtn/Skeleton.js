@@ -1,3 +1,3 @@
-EAN-skeleton
+Skeleton.js
 ===================
-Express - Angular - Node
+A Spinal chord for a Node.js Application
