@@ -16,13 +16,6 @@ exports.config = {
       }
     },
     'server_conf': { // Configurations of servers that'll be used
-      'mongo':{
-        'ip': 'Db Server IP',
-        'port': 'Db Server Port',
-        'db': 'DB Name',
-        'dbuser': 'DB User',
-        'dbpass': 'DB Pass'
-      },
     }
   },
   'production':{
@@ -41,14 +34,8 @@ exports.config = {
         'callbackURL': '{PLCHLDR}'
       }
     },
-    'server_conf': {
-      'mongo':{
-        'ip': 'Db Server IP',
-        'port': 'Db Server Port',
-        'db': 'DB Name',
-        'dbuser': 'DB User',
-        'dbpass': 'DB Pass'
-      },
+    'server_conf': { // Configurations of servers that'll be used
+
     }
   }
 }
