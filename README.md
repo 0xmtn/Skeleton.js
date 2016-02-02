@@ -24,6 +24,14 @@ bower install
 grunt combine
 ```
 
+### Add New Feature
+
+```bash
+git clone https://github.com/0xmtn/Skeleton.js.git
+git pull origin FEATURE_BRANCH
+```
+Note: Right now, there will couple of merging conflicts which are needed to be fixed manually..
+
 ## Contributing
 _(Coming soon)_
 
