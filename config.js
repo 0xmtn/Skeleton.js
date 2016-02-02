@@ -35,7 +35,6 @@ exports.config = {
       }
     },
     'server_conf': { // Configurations of servers that'll be used
-
     }
   }
 }
