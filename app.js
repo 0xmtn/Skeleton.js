@@ -1,5 +1,11 @@
+/*
+ * Model Initialization
+ */
 
-/**
+var SampleDB = require('./models/_sampleschema');
+
+
+/*
  * Module dependencies.
  */
 
