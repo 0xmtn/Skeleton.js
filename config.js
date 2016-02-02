@@ -41,7 +41,7 @@ exports.config = {
         'callbackURL': '{PLCHLDR}'
       }
     },
-    'server_conf': {
+    'server_conf': { // Configurations of servers that'll be used
       'mongo':{
         'ip': 'Db Server IP',
         'port': 'Db Server Port',
