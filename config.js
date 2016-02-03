@@ -23,6 +23,13 @@ exports.config = {
         'dbuser': 'DB User',
         'dbpass': 'DB Pass'
       },
+      'neo4j':{
+        'ip': 'Db Server IP',
+        'port': 'Db Server Port',
+        'db': 'Db Name',
+        'dbuser': 'Db User',
+        'dbpass': 'Db Pass'
+      }
     }
   },
   'production':{
@@ -49,6 +56,13 @@ exports.config = {
         'dbuser': 'DB User',
         'dbpass': 'DB Pass'
       },
+      'neo4j':{
+        'ip': 'Db Server IP',
+        'port': 'Db Server Port',
+        'db': 'Db Name',
+        'dbuser': 'Db User',
+        'dbpass': 'Db Pass'
+      }
     }
   }
 }
